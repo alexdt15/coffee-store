@@ -27,6 +27,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# mongodb
+/lib/mongodb.js
+
 # vercel
 .vercel
 
