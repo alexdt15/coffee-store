@@ -1,0 +1,5 @@
+.wrapper {
+  background-color: var(--secondary-bg-color);
+  margin-top: auto;
+  overflow: hidden;
+}

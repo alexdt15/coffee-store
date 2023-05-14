@@ -1,0 +1,17 @@
+.wrapper {
+  background-color: transparent;
+}
+
+.wrapperPadding {
+  padding: 0 16px;
+}
+
+.wrapperBorder {
+  border-bottom: 1px solid #d0c9be;
+  padding: 24px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
