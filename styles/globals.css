@@ -2,22 +2,22 @@
 
 @font-face {
   font-family: "Alpino Black";
-  src: url("../../../public/fonts/Alpino-Black.ttf") format("truetype");
+  src: url("../public/fonts/Alpino-Black.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Alpino Medium";
-  src: url("../../../public/fonts/Alpino-Medium.ttf") format("truetype");
+  src: url("../public/fonts/Alpino-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Alpino Regular";
-  src: url("../../../public/fonts/Alpino-Regular.ttf") format("truetype");
+  src: url("../public/fonts/Alpino-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Hauora Regular";
-  src: url("../../../public/fonts/Hauora-Regular.ttf") format("truetype");
+  src: url("../public/fonts/Hauora-Regular.ttf") format("truetype");
 }
 
 *,

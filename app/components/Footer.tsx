@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import styles from './Footer.module.css'
-import Vector from '../../../public/coffee-vector.svg'
+import styles from '../../styles/Footer.module.css'
+import Vector from '../../public/coffee-vector.svg'
 
 export default function Header() {
   return (

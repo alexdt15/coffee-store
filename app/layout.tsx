@@ -1,6 +1,6 @@
-import './components/styles/globals.css'
-import Header from "./components/Header/Header"
-import Footer from './components/Footer/Footer'
+import '../styles/globals.css'
+import Header from "./components/Header"
+import Footer from './components/Footer'
 
 export const metadata = {
   title: 'Next Coffee',
