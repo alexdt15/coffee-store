@@ -16,6 +16,7 @@ let cachedDb = null;
 //   cachedDb = db;
 //   return db;
 // }
+
 const connectToDatabase = async () => {
   console.log("LLEGUÉ AQUI AL MENOS");
   try {

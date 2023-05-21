@@ -1,20 +1,37 @@
-function getData() {
-  const response = fetch("http:localhost:3000/api/products");
-  console.log("RESPONSEEE!", response);
-  return response;
+async function getData() {
+  const response = fetch("http:localhost:3000/api/products", {
+    cache: "no-store",
+  });
+  const data = (await response).json();
+  console.log(data);
+  return data;
 }
 
 export default async function Products() {
-  const coffeeList = getData();
-  console.log("COFFEEEE", coffeeList);
+  const coffeeList = await getData();
+  console.log();
 
   return (
     <main>
       <h1>Products</h1>
       <div>
         <div>
-          <h3>Coffee List!</h3>
-          <p>HOPEFULY</p>
+          {coffeeList.map((coffee) => {
+            return (
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <h3>Coffee List</h3>
+                <p>{coffee.price}€</p>
+                <p>{coffee.description}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </main>
